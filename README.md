@@ -10,6 +10,12 @@
 - Alert
 - ActionSheet
 
+#### iOS7
+![iOS7](./Raw/Images/ios7.gif)
+
+#### iOS8
+![iOS8](./Raw/Images/ios8.gif)
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
