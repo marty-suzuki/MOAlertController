@@ -1,0 +1,10 @@
+PODS:
+  - MOAlertController (0.1.0)
+
+DEPENDENCIES:
+  - MOAlertController
+
+SPEC CHECKSUMS:
+  MOAlertController: 045837877fb6b7874c332af78006eada17a69b51
+
+COCOAPODS: 0.34.4

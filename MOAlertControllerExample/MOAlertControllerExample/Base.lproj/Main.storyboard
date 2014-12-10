@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -15,7 +16,53 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tJi-iW-Qqj">
+                                <rect key="frame" x="232.5" y="255" width="135" height="90"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5KR-Cf-hBF">
+                                        <rect key="frame" x="-0.5" y="0.0" width="135" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="Bm2-a8-G1P"/>
+                                        </constraints>
+                                        <state key="normal" title="Show Alert">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="showAlertTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="gw1-at-jPH"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fm2-LQ-D5G">
+                                        <rect key="frame" x="0.0" y="60" width="135" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="jWv-Nz-5og"/>
+                                        </constraints>
+                                        <state key="normal" title="Show Action Sheet">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="showActionSheetTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="fKg-hK-L6g"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="5KR-Cf-hBF" firstAttribute="leading" secondItem="tJi-iW-Qqj" secondAttribute="leading" id="3JM-jc-eWU"/>
+                                    <constraint firstAttribute="trailing" secondItem="fm2-LQ-D5G" secondAttribute="trailing" id="9VA-aL-gk4"/>
+                                    <constraint firstAttribute="width" constant="135" id="DNX-5T-x3E"/>
+                                    <constraint firstAttribute="bottom" secondItem="fm2-LQ-D5G" secondAttribute="bottom" id="MBA-7l-dhM"/>
+                                    <constraint firstAttribute="trailing" secondItem="5KR-Cf-hBF" secondAttribute="trailing" id="Yln-uG-YfI"/>
+                                    <constraint firstAttribute="height" constant="90" id="aVV-ge-AaM"/>
+                                    <constraint firstItem="5KR-Cf-hBF" firstAttribute="top" secondItem="tJi-iW-Qqj" secondAttribute="top" id="kD5-ue-Vp1"/>
+                                    <constraint firstItem="fm2-LQ-D5G" firstAttribute="leading" secondItem="tJi-iW-Qqj" secondAttribute="leading" id="saV-oG-1zr"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="tJi-iW-Qqj" secondAttribute="centerY" id="Whv-pw-aW3"/>
+                            <constraint firstAttribute="centerX" secondItem="tJi-iW-Qqj" secondAttribute="centerX" id="YZZ-Ab-vzR"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
