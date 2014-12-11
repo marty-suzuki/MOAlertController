@@ -1,10 +1,10 @@
 PODS:
-  - MOAlertController (0.1.0)
+  - MOAlertController (1.0.0)
 
 DEPENDENCIES:
   - MOAlertController
 
 SPEC CHECKSUMS:
-  MOAlertController: 045837877fb6b7874c332af78006eada17a69b51
+  MOAlertController: 6943bc66752c54d9d1f2f1eb2e556b905aca22c1
 
 COCOAPODS: 0.34.4

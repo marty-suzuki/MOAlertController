@@ -28,7 +28,7 @@
 }
 
 - (void)setCompletion:(void (^)(NSInteger))completion {
-    objc_setAssociatedObject(self, @selector(completion), completion, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+    objc_setAssociatedObject(self, @selector(completion), completion, OBJC_ASSOCIATION_COPY_NONATOMIC);
 }
 
 - (void(^)(NSInteger))completion {
@@ -60,7 +60,7 @@
 }
 
 - (void)setCompletion:(void (^)(NSInteger))completion {
-    objc_setAssociatedObject(self, @selector(completion), completion, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+    objc_setAssociatedObject(self, @selector(completion), completion, OBJC_ASSOCIATION_COPY_NONATOMIC);
 }
 
 - (void(^)(NSInteger))completion {
@@ -77,7 +77,7 @@
 
 @property (assign, nonatomic, readwrite) MOAlertActionStyle style;
 @property (copy, nonatomic, readwrite) NSString *title;
-@property (strong, nonatomic, readwrite) void(^handler)(MOAlertAction *);
+@property (copy, nonatomic, readwrite) void(^handler)(MOAlertAction *);
 
 @end
 
