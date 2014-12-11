@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "MOAlertController"
-  s.version          = "0.1.0"
+  s.version          = "1.0.0"
   s.summary          = "MOAlertController is wapper class to assign UIAlertController, UIAlertView and UIActionSheet."
 
   s.homepage         = "https://github.com/szk-atmosphere/MOAlertController"
