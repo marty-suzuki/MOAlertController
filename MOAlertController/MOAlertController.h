@@ -10,7 +10,7 @@
 
 @interface UIAlertView (Blocks) <UIAlertViewDelegate>
 
-@property (strong, nonatomic) void(^completion)(NSInteger buttonIndex);
+@property (copy, nonatomic) void(^completion)(NSInteger buttonIndex);
 
 - (id)initWithTitle:(NSString *)title message:(NSString *)message completion:(void(^)(NSInteger buttonIndex))completion cancelButtonTitle:(NSString *)cancelButtonTitle otherButtonTitles:(NSString *)otherButtonTitles, ...;
 
@@ -18,7 +18,7 @@
 
 @interface UIActionSheet (Blocks) <UIActionSheetDelegate>
 
-@property (strong, nonatomic) void(^completion)(NSInteger buttonIndex);
+@property (copy, nonatomic) void(^completion)(NSInteger buttonIndex);
 
 - (id)initWithTitle:(NSString *)title completion:(void(^)(NSInteger buttonIndex))completion  cancelButtonTitle:(NSString *)cancelButtonTitle destructiveButtonTitle:(NSString *)destructiveButtonTitle otherButtonTitles:(NSString *)otherButtonTitles, ...;
 
@@ -34,7 +34,7 @@ typedef NS_ENUM(NSInteger, MOAlertActionStyle) {
 
 @property (assign, nonatomic, readonly) MOAlertActionStyle style;
 @property (copy, nonatomic, readonly) NSString *title;
-@property (strong, nonatomic, readonly) void(^handler)(MOAlertAction *);
+@property (copy, nonatomic, readonly) void(^handler)(MOAlertAction *);
 
 + (instancetype)actionWithTitle:(NSString *)title style:(MOAlertActionStyle)style handler:(void(^)(MOAlertAction *))handler;
 
