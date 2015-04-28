@@ -7,200 +7,200 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		045C1B7A24CD44CE7FB6D67B /* MOAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = 819AB583E0A1C0524DCB1F6F /* MOAlertController.h */; };
-		375E74E25FFD1C3B7AD35E2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A550691DA912ECBABB5CAF /* Foundation.framework */; };
-		4CF7ADA3475BED2181382893 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A550691DA912ECBABB5CAF /* Foundation.framework */; };
-		8A74A0EE220E3D059AF9FFF4 /* Pods-MOAlertController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CF5EBB34BB3387469AC1A8 /* Pods-MOAlertController-dummy.m */; };
-		9E43980BDA41222D7D969059 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA8AE31076F59714616AC40 /* Pods-dummy.m */; };
-		9E4B22FA3D72E6AC72FAAB25 /* MOAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFD9DFD97D8C85EB43D6C73 /* MOAlertController.m */; };
+		2599EE6983D0E3634CCAACCF /* MOAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1EA230E463DB424BAEF2DA /* MOAlertController.m */; };
+		47E703CE08C88F7A6EA115E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 708D36DCCBCEB71471A4914C /* Foundation.framework */; };
+		BAB8DEF5C3134A30FE64DC97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 708D36DCCBCEB71471A4914C /* Foundation.framework */; };
+		D3E31414630B99E7E849074B /* Pods-MOAlertController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACACFC9895401AAFCF957282 /* Pods-MOAlertController-dummy.m */; };
+		E1C86FDAFB55BBA71925044F /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 841B71E7A0DADC81ED47AB0C /* Pods-dummy.m */; };
+		ED8411750452362168C994EF /* MOAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = 56F43879469095718489F46B /* MOAlertController.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C9BA5E964B8823C4B593861B /* PBXContainerItemProxy */ = {
+		7ACBC1D6D8F86C62ED045C93 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5EBB8C6DFCDCB78A45B10FFA /* Project object */;
+			containerPortal = 6A9521208BF243FF4EF031F6 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AB9C20B14F8D51C7171FF84E;
+			remoteGlobalIDString = ECA62DCF2686C285F22A1B5D;
 			remoteInfo = "Pods-MOAlertController";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06FC7C309E406AD853C27420 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		0A7D3E5028CE907BC90F87DE /* Pods-MOAlertController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MOAlertController.xcconfig"; sourceTree = "<group>"; };
-		3176F60804DCB79BEF583637 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		43F7B413D2F38DEAD7C2CCF1 /* libPods-MOAlertController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MOAlertController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		47774D32A091E23825BD2A5C /* Pods-MOAlertController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MOAlertController-Private.xcconfig"; sourceTree = "<group>"; };
-		598443AB40B44D92D2B68265 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6CA8AE31076F59714616AC40 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		7A6ED584B61ED65A2FE9B3E5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		819AB583E0A1C0524DCB1F6F /* MOAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MOAlertController.h; sourceTree = "<group>"; };
-		933ABDE839F323E3F266F416 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		99CDDF387959136C27343E2C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		A45FAA68AF1B19D4A36EF2C1 /* Pods-MOAlertController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MOAlertController-prefix.pch"; sourceTree = "<group>"; };
-		B609C22DD695BD30F2190436 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5A550691DA912ECBABB5CAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DEA1525DA428C7498056F5F5 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
-		ECFD9DFD97D8C85EB43D6C73 /* MOAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MOAlertController.m; sourceTree = "<group>"; };
-		F3CF5EBB34BB3387469AC1A8 /* Pods-MOAlertController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MOAlertController-dummy.m"; sourceTree = "<group>"; };
+		15411248AFB4A02523C0B1D9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		1D831CE87E19EE37675750F7 /* libPods-MOAlertController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MOAlertController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		310FAF10BC49F4F9080E2C81 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		4372CA906C52E2F0E281F1B9 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		56F43879469095718489F46B /* MOAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MOAlertController.h; sourceTree = "<group>"; };
+		686C673368842AF762CEE788 /* Pods-MOAlertController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MOAlertController-prefix.pch"; sourceTree = "<group>"; };
+		708D36DCCBCEB71471A4914C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7B1EED6E471B064CCAEFB39D /* Pods-MOAlertController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MOAlertController-Private.xcconfig"; sourceTree = "<group>"; };
+		841B71E7A0DADC81ED47AB0C /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		888246CAE203A072EF7C8C4D /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		938B0A34F7516595F7A32161 /* Pods-MOAlertController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MOAlertController.xcconfig"; sourceTree = "<group>"; };
+		954A98123941913D70E7ABFE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACACFC9895401AAFCF957282 /* Pods-MOAlertController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MOAlertController-dummy.m"; sourceTree = "<group>"; };
+		AD4C358301FA99D9766007AF /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		EE1EA230E463DB424BAEF2DA /* MOAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MOAlertController.m; sourceTree = "<group>"; };
+		F650DFE54C94BBC3CCA731F7 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FA2EE26D3C418C011B1CB9E0 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7B338B53E17A56B6380AFED9 /* Frameworks */ = {
+		4DF79950C58979CF56B1CAD1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CF7ADA3475BED2181382893 /* Foundation.framework in Frameworks */,
+				47E703CE08C88F7A6EA115E9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B06BDCEC1A3588AB30A75462 /* Frameworks */ = {
+		69F2C32DC4EB24FBC37D70C3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				375E74E25FFD1C3B7AD35E2C /* Foundation.framework in Frameworks */,
+				BAB8DEF5C3134A30FE64DC97 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		059EBC51A4F282A2DFFD8295 /* MOAlertController */ = {
+		19785AFE78634BCEC86C7C65 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5276BFECA05C304BC8EB38A2 /* MOAlertController */,
-				F08B7D1183F215066701BD36 /* Support Files */,
-			);
-			name = MOAlertController;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		272ADB244C62661FC0598E16 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				059EBC51A4F282A2DFFD8295 /* MOAlertController */,
+				E99DC52C9FAF1EECA62BEF73 /* MOAlertController */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		50343B81CBE7912281B1C60E /* Frameworks */ = {
+		2E95FBDC7B5AAA4D5763AEC2 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CEE4378084D9F4D6BA9D9547 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		5276BFECA05C304BC8EB38A2 /* MOAlertController */ = {
-			isa = PBXGroup;
-			children = (
-				819AB583E0A1C0524DCB1F6F /* MOAlertController.h */,
-				ECFD9DFD97D8C85EB43D6C73 /* MOAlertController.m */,
-			);
-			path = MOAlertController;
-			sourceTree = "<group>";
-		};
-		7559454EAAB8A2F2F43B2B16 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B609C22DD695BD30F2190436 /* libPods.a */,
-				43F7B413D2F38DEAD7C2CCF1 /* libPods-MOAlertController.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		ACEDEF3AABCDE77DCE8DDE2C = {
-			isa = PBXGroup;
-			children = (
-				3176F60804DCB79BEF583637 /* Podfile */,
-				272ADB244C62661FC0598E16 /* Development Pods */,
-				50343B81CBE7912281B1C60E /* Frameworks */,
-				7559454EAAB8A2F2F43B2B16 /* Products */,
-				E455C4AB164081BB3972DEBD /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		CEE4378084D9F4D6BA9D9547 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				D5A550691DA912ECBABB5CAF /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		E455C4AB164081BB3972DEBD /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F389D11A2F52A4E9C393985C /* Pods */,
+				42150A26ECB6324E57EFCCAF /* Pods */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F08B7D1183F215066701BD36 /* Support Files */ = {
+		42150A26ECB6324E57EFCCAF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0A7D3E5028CE907BC90F87DE /* Pods-MOAlertController.xcconfig */,
-				47774D32A091E23825BD2A5C /* Pods-MOAlertController-Private.xcconfig */,
-				F3CF5EBB34BB3387469AC1A8 /* Pods-MOAlertController-dummy.m */,
-				A45FAA68AF1B19D4A36EF2C1 /* Pods-MOAlertController-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "MOAlertControllerExample/Pods/Target Support Files/Pods-MOAlertController";
-			sourceTree = "<group>";
-		};
-		F389D11A2F52A4E9C393985C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				598443AB40B44D92D2B68265 /* Pods-acknowledgements.markdown */,
-				933ABDE839F323E3F266F416 /* Pods-acknowledgements.plist */,
-				6CA8AE31076F59714616AC40 /* Pods-dummy.m */,
-				DEA1525DA428C7498056F5F5 /* Pods-environment.h */,
-				06FC7C309E406AD853C27420 /* Pods-resources.sh */,
-				7A6ED584B61ED65A2FE9B3E5 /* Pods.debug.xcconfig */,
-				99CDDF387959136C27343E2C /* Pods.release.xcconfig */,
+				888246CAE203A072EF7C8C4D /* Pods-acknowledgements.markdown */,
+				FA2EE26D3C418C011B1CB9E0 /* Pods-acknowledgements.plist */,
+				841B71E7A0DADC81ED47AB0C /* Pods-dummy.m */,
+				4372CA906C52E2F0E281F1B9 /* Pods-environment.h */,
+				AD4C358301FA99D9766007AF /* Pods-resources.sh */,
+				15411248AFB4A02523C0B1D9 /* Pods.debug.xcconfig */,
+				310FAF10BC49F4F9080E2C81 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
 			path = "Target Support Files/Pods";
 			sourceTree = "<group>";
 		};
+		6084C584F47332329C03F5C6 = {
+			isa = PBXGroup;
+			children = (
+				F650DFE54C94BBC3CCA731F7 /* Podfile */,
+				19785AFE78634BCEC86C7C65 /* Development Pods */,
+				EDE6D96D88D2AE356EB90E48 /* Frameworks */,
+				EAEFBA818B81BB68D3D6BB61 /* Products */,
+				2E95FBDC7B5AAA4D5763AEC2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D37DD6F13A954C049299CE8D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				708D36DCCBCEB71471A4914C /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E99DC52C9FAF1EECA62BEF73 /* MOAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				FBD12264B68C5FA11235648E /* MOAlertController */,
+				F7C12B520EF857A0AB5D1EF6 /* Support Files */,
+			);
+			name = MOAlertController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EAEFBA818B81BB68D3D6BB61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				954A98123941913D70E7ABFE /* libPods.a */,
+				1D831CE87E19EE37675750F7 /* libPods-MOAlertController.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDE6D96D88D2AE356EB90E48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D37DD6F13A954C049299CE8D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7C12B520EF857A0AB5D1EF6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				938B0A34F7516595F7A32161 /* Pods-MOAlertController.xcconfig */,
+				7B1EED6E471B064CCAEFB39D /* Pods-MOAlertController-Private.xcconfig */,
+				ACACFC9895401AAFCF957282 /* Pods-MOAlertController-dummy.m */,
+				686C673368842AF762CEE788 /* Pods-MOAlertController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "MOAlertControllerExample/Pods/Target Support Files/Pods-MOAlertController";
+			sourceTree = "<group>";
+		};
+		FBD12264B68C5FA11235648E /* MOAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				56F43879469095718489F46B /* MOAlertController.h */,
+				EE1EA230E463DB424BAEF2DA /* MOAlertController.m */,
+			);
+			path = MOAlertController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		190D60C279CCEF02C6D7F6A8 /* Headers */ = {
+		C531AFDA644359CFB254A7A3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				045C1B7A24CD44CE7FB6D67B /* MOAlertController.h in Headers */,
+				ED8411750452362168C994EF /* MOAlertController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		30062E2A608BD408ECD2450F /* Pods */ = {
+		A255D6613698E059441AA9E7 /* Pods */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 25096A508B10030FED23B778 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildConfigurationList = 5E027E84651E2ED9936D07A3 /* Build configuration list for PBXNativeTarget "Pods" */;
 			buildPhases = (
-				7A8CBE3A10E65105BCC143E2 /* Sources */,
-				7B338B53E17A56B6380AFED9 /* Frameworks */,
+				DCF4A44B6F326EE7322FDC5F /* Sources */,
+				69F2C32DC4EB24FBC37D70C3 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6164DB8811F9AEABD930B607 /* PBXTargetDependency */,
+				0E0FA7A5CB0B22165CAFC74F /* PBXTargetDependency */,
 			);
 			name = Pods;
 			productName = Pods;
-			productReference = B609C22DD695BD30F2190436 /* libPods.a */;
+			productReference = 954A98123941913D70E7ABFE /* libPods.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		AB9C20B14F8D51C7171FF84E /* Pods-MOAlertController */ = {
+		ECA62DCF2686C285F22A1B5D /* Pods-MOAlertController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 87E247E6ECC536420EE092F9 /* Build configuration list for PBXNativeTarget "Pods-MOAlertController" */;
+			buildConfigurationList = 9C4C7CA08E3B3A6C88E11674 /* Build configuration list for PBXNativeTarget "Pods-MOAlertController" */;
 			buildPhases = (
-				FBE7CAFF590A80834CEAD1EB /* Sources */,
-				B06BDCEC1A3588AB30A75462 /* Frameworks */,
-				190D60C279CCEF02C6D7F6A8 /* Headers */,
+				DD1416E245707FA300551664 /* Sources */,
+				4DF79950C58979CF56B1CAD1 /* Frameworks */,
+				C531AFDA644359CFB254A7A3 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -208,82 +208,82 @@
 			);
 			name = "Pods-MOAlertController";
 			productName = "Pods-MOAlertController";
-			productReference = 43F7B413D2F38DEAD7C2CCF1 /* libPods-MOAlertController.a */;
+			productReference = 1D831CE87E19EE37675750F7 /* libPods-MOAlertController.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5EBB8C6DFCDCB78A45B10FFA /* Project object */ = {
+		6A9521208BF243FF4EF031F6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = A0B86B227BF04C6C1B74C730 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 9D039D2F46C4C50B2136656B /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = ACEDEF3AABCDE77DCE8DDE2C;
-			productRefGroup = 7559454EAAB8A2F2F43B2B16 /* Products */;
+			mainGroup = 6084C584F47332329C03F5C6;
+			productRefGroup = EAEFBA818B81BB68D3D6BB61 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				30062E2A608BD408ECD2450F /* Pods */,
-				AB9C20B14F8D51C7171FF84E /* Pods-MOAlertController */,
+				A255D6613698E059441AA9E7 /* Pods */,
+				ECA62DCF2686C285F22A1B5D /* Pods-MOAlertController */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7A8CBE3A10E65105BCC143E2 /* Sources */ = {
+		DCF4A44B6F326EE7322FDC5F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E43980BDA41222D7D969059 /* Pods-dummy.m in Sources */,
+				E1C86FDAFB55BBA71925044F /* Pods-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FBE7CAFF590A80834CEAD1EB /* Sources */ = {
+		DD1416E245707FA300551664 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E4B22FA3D72E6AC72FAAB25 /* MOAlertController.m in Sources */,
-				8A74A0EE220E3D059AF9FFF4 /* Pods-MOAlertController-dummy.m in Sources */,
+				2599EE6983D0E3634CCAACCF /* MOAlertController.m in Sources */,
+				D3E31414630B99E7E849074B /* Pods-MOAlertController-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6164DB8811F9AEABD930B607 /* PBXTargetDependency */ = {
+		0E0FA7A5CB0B22165CAFC74F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-MOAlertController";
-			target = AB9C20B14F8D51C7171FF84E /* Pods-MOAlertController */;
-			targetProxy = C9BA5E964B8823C4B593861B /* PBXContainerItemProxy */;
+			target = ECA62DCF2686C285F22A1B5D /* Pods-MOAlertController */;
+			targetProxy = 7ACBC1D6D8F86C62ED045C93 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		004421243B20399BE9B4A8E9 /* Debug */ = {
+		1681A5095E2C6DBFD6409674 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 47774D32A091E23825BD2A5C /* Pods-MOAlertController-Private.xcconfig */;
+			baseConfigurationReference = 7B1EED6E471B064CCAEFB39D /* Pods-MOAlertController-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Pods-MOAlertController/Pods-MOAlertController-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		0CF167C5549D1EE2402A3903 /* Release */ = {
+		1F39F13820A654F96A0E0E24 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -317,25 +317,25 @@
 			};
 			name = Release;
 		};
-		105984F5C4A4C54411C2C59B /* Release */ = {
+		3D7DBA645C526A785B472D94 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 99CDDF387959136C27343E2C /* Pods.release.xcconfig */;
+			baseConfigurationReference = 7B1EED6E471B064CCAEFB39D /* Pods-MOAlertController-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MOAlertController/Pods-MOAlertController-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
-		2DE40D7B4E0F730DBDB05911 /* Debug */ = {
+		7445D5045565EAC697942236 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A6ED584B61ED65A2FE9B3E5 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 15411248AFB4A02523C0B1D9 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -349,23 +349,7 @@
 			};
 			name = Debug;
 		};
-		7093F72B9F2DB16AAB0DC4DF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 47774D32A091E23825BD2A5C /* Pods-MOAlertController-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-MOAlertController/Pods-MOAlertController-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		8A5236D102B3CB3F62660AAD /* Debug */ = {
+		8C317E95D1AA0807A06542D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -404,37 +388,53 @@
 			};
 			name = Debug;
 		};
+		A99A5F9843EB3B399F3A5D3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 310FAF10BC49F4F9080E2C81 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		25096A508B10030FED23B778 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+		5E027E84651E2ED9936D07A3 /* Build configuration list for PBXNativeTarget "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2DE40D7B4E0F730DBDB05911 /* Debug */,
-				105984F5C4A4C54411C2C59B /* Release */,
+				7445D5045565EAC697942236 /* Debug */,
+				A99A5F9843EB3B399F3A5D3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		87E247E6ECC536420EE092F9 /* Build configuration list for PBXNativeTarget "Pods-MOAlertController" */ = {
+		9C4C7CA08E3B3A6C88E11674 /* Build configuration list for PBXNativeTarget "Pods-MOAlertController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				004421243B20399BE9B4A8E9 /* Debug */,
-				7093F72B9F2DB16AAB0DC4DF /* Release */,
+				3D7DBA645C526A785B472D94 /* Debug */,
+				1681A5095E2C6DBFD6409674 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A0B86B227BF04C6C1B74C730 /* Build configuration list for PBXProject "Pods" */ = {
+		9D039D2F46C4C50B2136656B /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8A5236D102B3CB3F62660AAD /* Debug */,
-				0CF167C5549D1EE2402A3903 /* Release */,
+				8C317E95D1AA0807A06542D4 /* Debug */,
+				1F39F13820A654F96A0E0E24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5EBB8C6DFCDCB78A45B10FFA /* Project object */;
+	rootObject = 6A9521208BF243FF4EF031F6 /* Project object */;
 }

@@ -1,5 +1,5 @@
 PODS:
-  - MOAlertController (1.0.0)
+  - MOAlertController (1.0.1)
 
 DEPENDENCIES:
   - MOAlertController (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  MOAlertController: f3c57b298fe7dfc3af8849af34c0a248642855fe
+  MOAlertController: b34c6aa71a30744ecb3c10f308d50050b5d9ed48
 
 COCOAPODS: 0.36.0

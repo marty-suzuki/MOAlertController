@@ -36,7 +36,9 @@
 }
 
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
-    self.completion(buttonIndex);
+    if (self.completion) {
+        self.completion(buttonIndex);
+    }
 }
 
 @end
@@ -68,7 +70,9 @@
 }
 
 - (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
-    self.completion(buttonIndex);
+    if (self.completion) {
+        self.completion(buttonIndex);
+    }
 }
 
 @end
