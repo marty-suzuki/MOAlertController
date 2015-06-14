@@ -76,6 +76,14 @@ Set ```MOAlertControllerStyleActionSheet``` to preferredStyle.
 	
 ```
 
+If you want to dismiss, use this method.
+
+``` objective-c
+
+[controller dismissViewControllerFromCurrentViewController];
+
+```
+
 ## Requirements
 - iOS 7.0 and greater
 - ARC

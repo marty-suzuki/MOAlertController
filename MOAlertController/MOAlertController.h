@@ -49,6 +49,7 @@ typedef NS_ENUM(NSInteger, MOAlertControllerStyle) {
 
 + (instancetype)alertControllerWithTitle:(NSString *)title message:(NSString *)message preferredStyle:(MOAlertControllerStyle)style;
 - (void)presentViewControllerWithCurrentViewController:(UIViewController *)viewController;
+- (void)dismissViewControllerFromCurrentViewController;
 - (void)addAction:(MOAlertAction *)action;
 - (void)addTextFieldWithConfigurationHandler:(void (^)(UITextField *textField))configurationHandler;
 

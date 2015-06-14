@@ -264,6 +264,7 @@
         switch (self.style) {
             case MOAlertControllerStyleAlert: {
                 UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:self.title message:self.message completion:completion cancelButtonTitle:nil otherButtonTitles:nil];
+                self.alertController = alertView;
                 
                 [self.actionList enumerateObjectsUsingBlock:^(MOAlertAction *alertAction, NSUInteger index, BOOL *stop) {
                     [alertView addButtonWithTitle:alertAction.title];
@@ -302,6 +303,7 @@
                     title = self.message;
                 }
                 UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:title completion:completion cancelButtonTitle:nil destructiveButtonTitle:nil otherButtonTitles:nil];
+                self.alertController = actionSheet;
                 
                 __block MOAlertAction *cancelAction = nil;
                 [self.actions enumerateObjectsUsingBlock:^(MOAlertAction *alertAction, NSUInteger index, BOOL *stop) {
@@ -334,6 +336,24 @@
                 
                 [actionSheet showInView:[UIApplication sharedApplication].keyWindow];
                 return;
+            }
+        }
+    }
+}
+
+- (void)dismissViewControllerFromCurrentViewController {
+    if (NSStringFromClass([UIAlertController class])) {
+        UIAlertController *controller = self.alertController;
+        [controller dismissViewControllerAnimated:YES completion:nil];
+    } else {
+        switch (self.style) {
+            case MOAlertControllerStyleAlert: {
+                UIAlertView *alertView = self.alertController;
+                [alertView dismissWithClickedButtonIndex:alertView.cancelButtonIndex animated:YES];
+            }
+            case MOAlertControllerStyleActionSheet: {
+                UIActionSheet *actionSheet = self.alertController;
+                [actionSheet dismissWithClickedButtonIndex:actionSheet.cancelButtonIndex animated:YES];
             }
         }
     }
