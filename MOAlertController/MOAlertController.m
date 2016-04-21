@@ -287,7 +287,7 @@
                     UITextField *tf = [alertView textFieldAtIndex:0];
                     tf.delegate = ((UITextField*) self.textFields[0]).delegate;
                     self.textFieldList[0] = tf;
-                }else if (self.textFields.count == 2){
+                }else if (self.textFields.count > 1){
                     alertView.alertViewStyle = UIAlertViewStyleLoginAndPasswordInput;
                     UITextField *tf1 = [alertView textFieldAtIndex:0];
                     UITextField *tf2 = [alertView textFieldAtIndex:1];
